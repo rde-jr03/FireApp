@@ -1,14 +1,3 @@
-# from django.shortcuts import render
-# from django.views.generic.list import ListView
-# from fire.models import Locations, Incident, FireStation
-
-# from django.db import connection
-# from django.http import JsonResponse
-# from django.db.models.functions import ExtractMonth
-
-# from django.db.models import Count
-# from datetime import datetime
-
 from django.shortcuts import render
 from django.views.generic import ListView
 from django.urls import reverse_lazy

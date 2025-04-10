@@ -434,7 +434,7 @@
     
         
 <script>
-//  var lineChart = document.getElementById("lineChart").getContext("2d"),
+ // var lineChart = document.getElementById("lineChart").getContext("2d"),
     var barChart = document.getElementById("barChart").getContext("2d"),
 //    pieChart = document.getElementById("pieChart").getContext("2d"),
     doughnutChart = document.getElementById("doughnutChart").getContext("2d"),
@@ -559,34 +559,34 @@
 //          },
 //        });
 
-//   var myDoughnutChart = new Chart(doughnutChart, {
-//     type: "doughnut",
-//     data: {
-//       datasets: [
-//         {
-//           data: [10, 20, 30],
-//           backgroundColor: ["#f3545d", "#fdaf4b", "#1d7af3"],
-//         },
-//       ],
+  var myDoughnutChart = new Chart(doughnutChart, {
+    type: "doughnut",
+    data: {
+      datasets: [
+        {
+          data: [10, 20, 30],
+          backgroundColor: ["#f3545d", "#fdaf4b", "#1d7af3"],
+        },
+      ],
 
-//       labels: ["Red", "Yellow", "Blue"],
-//     },
-//     options: {
-//       responsive: true,
-//       maintainAspectRatio: false,
-//       legend: {
-//         position: "bottom",
-//       },
-//       layout: {
-//         padding: {
-//           left: 20,
-//           right: 20,
-//           top: 20,
-//           bottom: 20,
-//         },
-//       },
-//     },
-//   });
+      labels: ["Red", "Yellow", "Blue"],
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      legend: {
+        position: "bottom",
+      },
+      layout: {
+        padding: {
+          left: 20,
+          right: 20,
+          top: 20,
+          bottom: 20,
+        },
+      },
+    },
+  });
 
   var myRadarChart = new Chart(radarChart, {
     type: "radar",
@@ -937,3 +937,5 @@
   }
 </script>
 {% endblock %}
+
+
